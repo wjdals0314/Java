@@ -1,0 +1,17 @@
+package cond.ex;
+
+public class ExchangingRate {
+    static void main() {
+        int dollar=100, won;
+        if (dollar<0){
+            System.out.println("잘못된 금액입니다.");
+        }
+        else if (dollar==0){
+            System.out.println("환전할 금액이 없습니다.");
+        }
+        else{
+            won=dollar*1300;
+            System.out.println("화전 금액은 "+won+"원 입니다.");
+        }
+    }
+}
