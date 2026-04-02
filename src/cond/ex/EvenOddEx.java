@@ -1,4 +1,11 @@
 package cond.ex;
 
 public class EvenOddEx {
+    static void main() {
+        int x=2;
+
+        String result=(x%2==0)?"짝수":"홀수";
+
+        System.out.println(x+"는 "+result+"입니다.");
+    }
 }

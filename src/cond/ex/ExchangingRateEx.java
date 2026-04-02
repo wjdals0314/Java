@@ -1,6 +1,6 @@
 package cond.ex;
 
-public class ExchangingRate {
+public class ExchangingRateEx {
     static void main() {
         int dollar=100, won;
         if (dollar<0){
