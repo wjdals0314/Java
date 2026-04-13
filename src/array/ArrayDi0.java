@@ -11,12 +11,12 @@ public class ArrayDi0 {
         arr[1][0]=4;
         arr[1][1]=5;
         arr[1][2]=6;
-
+        //0행 출력
         System.out.print(arr[0][0]+" ");
         System.out.print(arr[0][1]+" ");
         System.out.print(arr[0][2]+" ");
         System.out.println();
-
+        //1행 출력
         System.out.print(arr[1][0]+" ");
         System.out.print(arr[1][1]+" ");
         System.out.print(arr[1][2]+" ");
